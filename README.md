@@ -34,3 +34,32 @@ Squad Role Mapping: Categorized the dataset into roles ranging from World Class 
 Undervalued Markets: Identified specific player profiles in the "Developing" stage whose market value is significantly lower than their projected potential growth.
 Retention vs. Sale: Created a dashboard view that flags "Veterans" with declining value, suggesting optimal windows for player sales to maximize ROI.
 Resource Allocation: Provided a clear roadmap for recruitment by highlighting "High Priority Buys" who fit specific squad roles (e.g., First Team Starter vs. Rotation).
+
+Strategic Recommendations & Actionable Insights
+
+Based on the data analysis of the 19,000+ player dataset, the following strategic recruitment actions are recommended:
+
+1. High-ROI "Wonderkid" Acquisition
+
+The analysis identified a high concentration of players in the "1. Wonderkid (<21)" category with a Potential Growth delta of +10 or higher.
+
+Action: Prioritize scouting in regions with high National Strength but lower average player wages to secure "World Class Prospects" before their market value peaks.
+
+Top Target Profile: Players with a high Value-for-Money Score and a Distance from Peak of -5 or more.
+
+2. Squad Optimization & Wage Management
+By cross-referencing SQUAD ROLE with Weekly Wage Euro, several "Salary Outliers" were identified.
+
+Action: Review players categorized as "Rotation / Bench" who are currently in the top 10% of the wage bracket.
+
+Strategy: Transition these players to the "SELL / RELEASE" Market Status to reallocate budget toward "First Team Starters" with higher efficiency ratings.
+
+3. Market Entry Timing
+The "Distance from Peak" metric revealed that players typically experience their sharpest value increase between ages 21 and 23 (Developing stage).
+
+Action: Implement a "Buy Low, Sell High" policy by acquiring talent in the Developing phase and evaluating for sale or contract extension once they enter the "Golden Age (24-29)" bracket.
+
+4. Risk Mitigation in Recruitment
+Using the Cost per Rating Point metric, the portfolio highlights "Overvalued" markets where clubs pay a premium for name recognition rather than statistical output.
+
+Action: Shift recruitment focus toward players with "Elite Talent" status in mid-tier leagues, where the Cost per Rating Point is 30% lower than in top-5 European leagues.
