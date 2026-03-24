@@ -3,8 +3,8 @@
 This project focuses on data-driven recruitment and squad management within professional football. Using a dataset of over 19,000 professional players, I performed comprehensive data cleaning, feature engineering, and strategic analysis to identify market opportunities and optimize roster construction.
 By developing custom metrics like Value-for-Money (VfM) and Cost per Rating Point, this project transforms raw player statistics into actionable financial insights, allowing recruitment departments to identify undervalued talent and manage player lifecycles effectively.
 
+Skills & Tools
 
-🛠️ Skills & Tools
 Technical Stack: Excel (Advanced Formulas, Data Cleaning), Power BI (DAX, Interactive Dashboards)
 Data Techniques: ETL (Extract, Transform, Load), Feature Engineering, Categorical Segmentation, Data Integrity Auditing.
 Domain Knowledge: Football Recruitment, Market Value Assessment, Squad Planning, Scouting Analytics.
