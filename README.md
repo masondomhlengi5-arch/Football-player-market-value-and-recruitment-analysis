@@ -1,65 +1,77 @@
 # Football-player-market-value-and-recruitment-analysis
- Project Overview
-This project focuses on data-driven recruitment and squad management within professional football. Using a dataset of over 19,000 professional players, I performed comprehensive data cleaning, feature engineering, and strategic analysis to identify market opportunities and optimize roster construction.
-By developing custom metrics like Value-for-Money (VfM) and Cost per Rating Point, this project transforms raw player statistics into actionable financial insights, allowing recruitment departments to identify undervalued talent and manage player lifecycles effectively.
+Objective
 
-Skills & Tools
+To simulate a real-world football recruitment strategy by answering:
 
-Technical Stack: Excel (Advanced Formulas, Data Cleaning), Power BI (DAX, Interactive Dashboards)
-Data Techniques: ETL (Extract, Transform, Load), Feature Engineering, Categorical Segmentation, Data Integrity Auditing.
-Domain Knowledge: Football Recruitment, Market Value Assessment, Squad Planning, Scouting Analytics.
+Which players offer the best value for money?
+When is the optimal time to buy or sell players?
+How can clubs allocate budgets more efficiently?
+Which markets produce undervalued talent?
+🛠 Tools & Skills
+Excel: Data cleaning, feature engineering, financial modeling
+Power BI: DAX, dashboard design, interactive reporting
 
- Key Metrics & Features Created
- 
-To provide deeper insights than standard ratings, I engineered several advanced fields:
-Market Status Classification: A logic-based system that categorizes players into High Priority Buy, Invest (High Growth), Stable, or Sell/Release.
-Golden Age Segmentation: Segments players by career stage: Wonderkids (<21), Developing (21-23), Golden Age (24-29), Veterans, and Legends.
-Value-for-Money (VfM) Score: A proprietary calculation weighing a player’s performance (Overall Rating) against their market valuation and wage demands.
-National Strength & Elite Talent Count: A macro-level analysis of which countries produce the highest concentration of high-potential players.
-Distance from Peak: A metric calculating the growth gap between a player's current ability and their maximum potential.
+Data Processing (Excel)
 
-The Analysis Pipeline
+The dataset was cleaned and standardized to ensure accuracy and usability:
 
-1. Data Cleaning & Integrity
-Standardized inconsistent date formats (e.g., converting "04-Jun-2012" to numeric date formats).
-Corrected currency and wage notations to ensure uniform financial analysis.
-Filtered out players with unverifiable data to maintain the integrity of the scouting reports.
-2. Strategic Scouting Analysis
-Targeting Wonderkids: Filtered the database for "World Class Prospects" under the age of 21 with a high growth delta.
-Financial Efficiency: Calculated "Cost per Rating Point" to pinpoint which leagues or teams offer the highest quality of player for the lowest transfer fee.
-Squad Role Mapping: Categorized the dataset into roles ranging from World Class Star to Reserve/Prospect to assist in balanced squad building.
+Standardized date formats and numerical fields
+Cleaned and unified currency/wage data for financial analysis
+Removed inconsistent or incomplete player records
+Structured dataset for efficient analysis and visualization
 
- Key Insights & Outcomes
- 
-Undervalued Markets: Identified specific player profiles in the "Developing" stage whose market value is significantly lower than their projected potential growth.
-Retention vs. Sale: Created a dashboard view that flags "Veterans" with declining value, suggesting optimal windows for player sales to maximize ROI.
-Resource Allocation: Provided a clear roadmap for recruitment by highlighting "High Priority Buys" who fit specific squad roles (e.g., First Team Starter vs. Rotation).
+ Feature Engineering & Metrics
 
-Strategic Recommendations & Actionable Insights
+To move beyond basic player ratings, custom metrics were developed:
 
-Based on the data analysis of the 19,000+ player dataset, the following strategic recruitment actions are recommended:
+Value-for-Money (VfM): Measures performance relative to cost
+Cost per Rating Point: Identifies financial efficiency across players and leagues
+Market Status Classification: Buy / Invest / Hold / Sell decision framework
+Golden Age Segmentation: Career stage grouping (Wonderkid → Veteran)
+Distance from Peak: Gap between current ability and potential
+National Strength Index: Identifies countries producing elite talent
 
-1. High-ROI "Wonderkid" Acquisition
+ Dashboard (Power BI)
 
-The analysis identified a high concentration of players in the "1. Wonderkid (<21)" category with a Potential Growth delta of +10 or higher.
+The Power BI dashboard provides an interactive interface for:
 
-Action: Prioritize scouting in regions with high National Strength but lower average player wages to secure "World Class Prospects" before their market value peaks.
+Identifying undervalued players
+Comparing player efficiency across leagues
+Monitoring squad structure and wage distribution
+Supporting recruitment and transfer decisions
 
-Top Target Profile: Players with a high Value-for-Money Score and a Distance from Peak of -5 or more.
+(Insert dashboard screenshots here)
 
-2. Squad Optimization & Wage Management
-By cross-referencing SQUAD ROLE with Weekly Wage Euro, several "Salary Outliers" were identified.
+ Key Insights
+Players aged 21–23 show the highest value growth, making them the best acquisition targets
+Several high-wage, low-impact players were identified → immediate cost reduction opportunity
+Mid-tier leagues offer ~30% lower cost per rating point, revealing strong market inefficiencies
+“Developing” players have the largest gap between current ability and potential, making them ideal investments
+Veteran players show declining value trends, indicating optimal sell timing
 
-Action: Review players categorized as "Rotation / Bench" who are currently in the top 10% of the wage bracket.
+ Strategic Recommendations
 
-Strategy: Transition these players to the "SELL / RELEASE" Market Status to reallocate budget toward "First Team Starters" with higher efficiency ratings.
+1. High-ROI Talent Acquisition
 
-3. Market Entry Timing
-The "Distance from Peak" metric revealed that players typically experience their sharpest value increase between ages 21 and 23 (Developing stage).
+Recruitment should prioritize high VfM players under 21 with strong growth potential before market value increases.
 
-Action: Implement a "Buy Low, Sell High" policy by acquiring talent in the Developing phase and evaluating for sale or contract extension once they enter the "Golden Age (24-29)" bracket.
+2. Squad Cost Optimization
 
-4. Risk Mitigation in Recruitment
-Using the Cost per Rating Point metric, the portfolio highlights "Overvalued" markets where clubs pay a premium for name recognition rather than statistical output.
+Clubs should offload high-wage, low-impact players and reinvest in more efficient first-team contributors.
 
-Action: Shift recruitment focus toward players with "Elite Talent" status in mid-tier leagues, where the Cost per Rating Point is 30% lower than in top-5 European leagues.
+3. Buy Low, Sell High Strategy
+Buy during the Developing phase (21–23)
+Sell or renew contracts during peak years (24–29)
+4. Market Inefficiency Exploitation
+
+Shift scouting focus toward mid-tier leagues, where player quality is undervalued relative to cost.
+
+Business Impact
+
+This project demonstrates how data can transform football recruitment from intuition-based decisions into a structured, financially optimized system.
+
+It provides a clear framework for:
+
+Improving squad quality within budget constraints
+Maximizing return on player investments
+Making faster, evidence-based recruitment decisio
