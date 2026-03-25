@@ -7,7 +7,7 @@ Which players offer the best value for money?
 When is the optimal time to buy or sell players?
 How can clubs allocate budgets more efficiently?
 Which markets produce undervalued talent?
-🛠 Tools & Skills
+ Tools & Skills
 Excel: Data cleaning, feature engineering, financial modeling
 Power BI: DAX, dashboard design, interactive reporting
 
